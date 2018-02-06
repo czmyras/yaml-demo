@@ -1,0 +1,19 @@
+version: 1.0
+released: 2012-11-30
+
+# Connection parameters
+connection:
+  url: jdbc:mysql://localhost:3306/db
+  poolSize: 5
+
+# Protocols
+protocols:
+  - http
+  - https
+
+# Users
+users:
+  tom: passwdX
+  bob: passwdY
+
+secretValue: 100

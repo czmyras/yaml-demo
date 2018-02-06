@@ -1,0 +1,19 @@
+version: 2.0
+released: 2018-02-06
+
+# Connection parameters
+connection:
+  url: jdbc:mysql://localhost:3306/db
+  poolSize: 5
+
+# Protocols
+protocols:
+  - http
+  - https
+
+# Users
+users:
+  chris: passwd1
+  john: passwd2
+
+secretValue: 200
